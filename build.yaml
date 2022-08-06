@@ -1,0 +1,12 @@
+# flutter pub run fast_i18n
+
+targets:
+  $default:
+    builders:
+      fast_i18n:
+        options:
+          namespaces: true
+          string_interpolation: double_braces
+          output_directory: .dart_tool/flutter_gen/gen_I18n
+          output_file_name: translations.g.dart
+          untranslated-messages-file: desiredFileName.txt
