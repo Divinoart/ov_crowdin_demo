@@ -1,0 +1,5 @@
+files:
+  - source: /lib/i18n/en
+    translation: '%original_file_name%'
+  - source: /lib/i18n/en/*
+    translation: /lib/i18n/%two_letters_code%/%original_file_name%
