@@ -1,8 +1,8 @@
 {
-  "title": "Crowdin Demo",
-  "homePageTitle": "Crowdin Home Page",
+  "title": "Logo Crowdin",
+  "homePageTitle": "Page d'accueil de Crowdin",
   "counter": {
-    "title": "You have pushed the button this many times:",
-    "tooltipText": "Increment"
+    "title": "Vous avez appuyé sur le bouton plusieurs fois :",
+    "tooltipText": "Id d'incrément"
   }
 }
