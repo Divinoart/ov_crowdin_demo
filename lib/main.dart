@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:ov_crowdin_demo/i18n/i18n.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -11,11 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: t.main.title,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: t.main.homePageTitle),
     );
   }
 }
@@ -48,8 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+            Text(
+              t.main.counter.title,
             ),
             Text(
               '$_counter',
@@ -60,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
+        tooltip: t.main.counter.tooltipText,
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );

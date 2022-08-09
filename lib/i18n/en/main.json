@@ -1,0 +1,8 @@
+{
+  "title": "Crowdin Demo",
+  "homePageTitle": "Crowdin Home Page",
+  "counter": {
+    "title": "You have pushed the button this many times:",
+    "tooltipText": "Increment"
+  }
+}
