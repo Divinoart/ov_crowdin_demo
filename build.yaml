@@ -6,6 +6,8 @@ targets:
       fast_i18n:
         options:
           namespaces: true
+          input_directory: lib/i18n
+          input_file_pattern: .json
           string_interpolation: double_braces
           output_directory: .dart_tool/flutter_gen/gen_I18n
           output_file_name: translations.g.dart
