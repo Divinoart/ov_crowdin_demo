@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:ov_crowdin_demo/i18n/i18n.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  LocaleSettings.useDeviceLocale();
   runApp(const MyApp());
 }
 
