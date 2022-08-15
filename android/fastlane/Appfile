@@ -1,0 +1,2 @@
+json_key_file("/Users/divine/Documents/My Personal Documents/Dev/Dev/pc-api-7041668598808892272-134-05382d17deb3.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+package_name("app.ov.crowdin.ov_crowdin_demo") # e.g. com.krausefx.app
